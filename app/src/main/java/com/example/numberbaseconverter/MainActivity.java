@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
             convertButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) throws NumberFormatException {
+                    textView.setText("");
                     String inputNumber = editText.getText().toString();
                     boolean checkValid = false;
                     if(sBase == 2){

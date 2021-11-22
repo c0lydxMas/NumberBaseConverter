@@ -34,7 +34,7 @@
 
         <Space
             android:layout_width="10dp"
-            android:layout_height="10dp"
+            android:layout_height="20dp"
             android:layout_weight="0" />
 
         <TextView
@@ -43,16 +43,19 @@
             android:text="From:"
             android:textSize="15sp"
             />
-
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_weight="0" />
         <Spinner
             android:id="@+id/spinner_number_base_from"
-            android:layout_width="wrap_content"
+            android:layout_width="180dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <Space
             android:layout_width="10dp"
-            android:layout_height="10dp"
+            android:layout_height="20dp"
             android:layout_weight="0" />
 
         <TextView
@@ -61,16 +64,19 @@
             android:text="To:"
             android:textSize="15sp"
             />
-
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_weight="0" />
         <Spinner
             android:id="@+id/spinner_number_base_to"
-            android:layout_width="wrap_content"
+            android:layout_width="180dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <Space
             android:layout_width="10dp"
-            android:layout_height="10dp"
+            android:layout_height="20dp"
             android:layout_weight="0" />
 
         <Button
@@ -84,7 +90,7 @@
 
         <Space
             android:layout_width="10dp"
-            android:layout_height="10dp"
+            android:layout_height="20dp"
             android:layout_weight="0" />
 
         <TextView
